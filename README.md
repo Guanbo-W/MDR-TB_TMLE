@@ -1,7 +1,11 @@
 # MDR-TB_TMLE
-This repository contains the simulation codes for the paper "Estimating treatment importance in multidrug-resistant tuberculosis using Targeted Learning: an observational individual patient data meta-analysis"
+This repository contains the main simulation codes for the paper "Estimating treatment importance in multidrug-resistant tuberculosis using Targeted Learning: an observational individual patient data meta-analysis".
 
+In thess simulation studies, we used TMLE algorithm combined with transortability, reisistance information, missing outcomes in fused studies to estimate our parameter of interest--treatment importance, in different situations.
 
+This simulation study aims to: 1) demonstrate the consistency and double robustness of the estimator under increasingly complex  settings, 2) investigate the appropriateness of the variance estimation and the coverage of the Wald-type confidence intervals based on the empirical influence curves, and 3) illustrate the potential importance of considering treatment availability (transportability) in our setting. 
+
+Please find more details in our paper.
 
 sim_seed.txt is file contains the seeds we generated to be used.
 
